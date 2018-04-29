@@ -25,12 +25,12 @@ for [currency, paid, owned] in currencies:
     total_value += current_value
     total_difference += difference
 
-    print "-------- %s --------" % currency
-    print "Difference:      %.2f" % difference
-    print "current value:   %.2f" % current_value
-    print "current_price:   %.2f" % current_price
-    print ""
+    print("-------- %s --------" % currency)
+    print("Difference:      %.2f" % difference)
+    print("current value:   %.2f" % current_value)
+    print("current_price:   %.2f" % current_price)
+    print("")
 
-print "________ TOTAL ________"
-print "Difference:   %.2f" % total_difference
-print "Value:        %.2f" % total_value
+print("________ TOTAL ________")
+print("Difference:   %.2f" % total_difference)
+print("Value:        %.2f" % total_value)
